@@ -48,6 +48,7 @@ h1 {
     font-size: 45px;
     color: var(--accent);
     text-align: center;
+    font-family: Helvetica;
 }
 
 .allMessages {

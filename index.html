@@ -10,6 +10,29 @@
     <!--Go to https://console.firebase.google.com-->
     <!--Sign in and add a project "fireMessage"-->
     <!--PASTE SNIPPET HERE-->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDOpaELrEzmdQW1Kk7hVs4NNWTvvZ5SuJs",
+    authDomain: "firemessage-3352b.firebaseapp.com",
+    databaseURL: "https://firemessage-3352b.firebaseio.com",
+    projectId: "firemessage-3352b",
+    storageBucket: "firemessage-3352b.appspot.com",
+    messagingSenderId: "541739999486",
+    appId: "1:541739999486:web:2c38bf128911035f2345af",
+    measurementId: "G-Q37LPRZBTB"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 
 
 
@@ -20,7 +43,7 @@
 <body>
 
     <!--Add your name-->
-    <h1>Bob's Messaging App</h1>
+    <h1>Joseph's Messaging App</h1>
 
     <!--This div will be populated with messages-->
     <div class="allMessages">
@@ -43,5 +66,6 @@
             <button id="submitButton">Submit</button>
         </form>
     </div>
+
 </body>
 </html>
